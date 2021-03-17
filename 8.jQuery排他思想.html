@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-min.js"></script>
+
+</head>
+
+<body>
+    <button>按钮</button>
+    <button>按钮</button>
+    <button>按钮</button>
+    <button>按钮</button>
+    <button>按钮</button>
+    <button>按钮</button>
+    <button>按钮</button>
+    <button>按钮</button>
+
+    <script>
+        $(function() {
+            //给每个按钮创建点击事件
+            $('button').click(function() {
+                //点击变成红色
+                $(this).css('background', 'red')
+                    //别的颜色变成白色
+                $(this).siblings('button').css('background', '')
+            })
+        })
+    </script>
+</body>
+
+</html>
