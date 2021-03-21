@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+
+h2 {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.itxt {
+    float: left;
+    width: 45px;
+    height: 16px;
+    text-align: center;
+    border: 1px solid #cacbcb;
+}
+
+.w {
+    width: 1200px;
+}
+
+.c-container {
+    margin: 100px auto;
+}
+
+.cart-thead {
+    width: 1200px;
+    height: 30px;
+    background-color: #f3f3f3;
+    float: left;
+}
+
+.t-checkbox,
+.t-goods,
+.t-price,
+.t-num,
+.t-sum,
+.t-action {
+    float: left;
+}
+
+.t-goods {
+    margin-left: 85px;
+}
+
+.t-price {
+    margin-left: 490px;
+}
+
+.t-num {
+    margin-left: 105px;
+}
+
+.t-sum {
+    margin-left: 140px;
+}
+
+.t-action {
+    margin-left: 110px;
+}
+
+.t-checkbox {
+    margin-left: 12px;
+}
+
+.p-godds,
+.p-img,
+.p-msg,
+.p-price,
+.p-num,
+.quantity-form,
+.p-sum,
+.p-action,
+.p-checkbox,
+.cart-item-list,
+.select-all,
+.operation,
+.remove-batch,
+.clear-all,
+.cart-floatbar,
+.toolbar-right {
+    float: left;
+}
+
+.toolbar-right {
+    float: right;
+}
+
+.amount-sun,
+.price-sun,
+.btn-area {
+    float: left;
+}
+
+.cart-item {
+    margin-top: 15px;
+    width: 1200px;
+    height: 195px;
+    border: 1px solid #f1f1f1;
+    border-top: 2px solid #aaa;
+}
+
+.check-cart-item {
+    background-color: #fff4e8;
+}
+
+.j-checkbox {
+    margin-top: 22px;
+    margin-left: 12px;
+}
+
+.p-godds,
+.p-price,
+.p-num,
+.p-sum,
+.p-action {
+    margin-top: 22px;
+}
+
+.p-img {
+    width: 90px;
+    height: 90px;
+    padding-top: 5px;
+    margin-left: 38px;
+    border: 1px solid #ccc;
+}
+
+.p-msg {
+    margin-left: 10px;
+    font-size: 10px;
+    width: 210px;
+}
+
+.p-price {
+    margin-left: 270px;
+}
+
+.p-num {
+    margin-left: 67px;
+}
+
+.decrement,
+.increment {
+    float: left;
+    /* display: inline-block; */
+    /* margin-top: 3px; */
+    height: 16px;
+    width: 16px;
+    text-align: center;
+    line-height: 16px;
+    border: 1px solid #cacbcb;
+    margin: 0 -1px;
+}
+
+a:hover {
+    color: red;
+}
+
+.p-sum {
+    margin-left: 95px;
+}
+
+.p-action {
+    margin-left: 100px;
+}
+
+.cart-floatbar {
+    border: 1px solid #f0f0f0;
+    margin-top: 15px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.select-all {
+    margin-left: 8px;
+    margin-right: 40px;
+}
+
+.checkall {
+    margin-right: 5px;
+}
+
+.remove-batch {
+    margin-right: 24px;
+}
+
+.amount-sun {
+    color: #666;
+    font-size: 10px;
+}
+
+.price-sun em {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+em {
+    margin: 0 5px;
+    color: red;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.btn-area {
+    height: 100%;
+    width: 95px;
+    background-color: red;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
