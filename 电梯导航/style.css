@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9oynga');
+  src:  url('fonts/icomoon.eot?9oynga#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9oynga') format('truetype'),
+    url('fonts/icomoon.woff?9oynga') format('woff'),
+    url('fonts/icomoon.svg?9oynga#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cheveron-down:before {
+  content: "\e901";
+}
+.icon-cheveron-down1:before {
+  content: "\e902";
+}
+.icon-cheveron-down2:before {
+  content: "\e900";
+}
+.icon-cheveron-down11:before {
+  content: "\e903";
+}
+.icon-cheveron-left:before {
+  content: "\e904";
+}
+.icon-cheveron-right:before {
+  content: "\e905";
+}
+.icon-cheveron-up:before {
+  content: "\e90d";
+}
+.icon-bubbles2:before {
+  content: "\e96d";
+}
+.icon-cool2:before {
+  content: "\e9ec";
+}
+.icon-android:before {
+  content: "\eac0";
+}
+.icon-pushpin:before {
+  content: "\e946";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-pencil2:before {
+  content: "\e906";
+}
+.icon-quill:before {
+  content: "\e907";
+}
+.icon-pen:before {
+  content: "\e908";
+}
+.icon-blog:before {
+  content: "\e909";
+}
+.icon-eyedropper:before {
+  content: "\e90a";
+}
+.icon-droplet:before {
+  content: "\e90b";
+}
+.icon-paint-format:before {
+  content: "\e90c";
+}
+.icon-music:before {
+  content: "\e911";
+}
+.icon-play:before {
+  content: "\e912";
+}
+.icon-film:before {
+  content: "\e913";
+}
+.icon-video-camera:before {
+  content: "\e914";
+}
+.icon-pacman:before {
+  content: "\e916";
+}
+.icon-spades:before {
+  content: "\e917";
+}
+.icon-clubs:before {
+  content: "\e918";
+}
+.icon-diamonds:before {
+  content: "\e919";
+}
+.icon-loop2:before {
+  content: "\ea2e";
+}

@@ -1,0 +1,289 @@
+.main {
+    height: 455px;
+    width: 980px;
+    /* background-color: green; */
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.main .focus {
+    float: left;
+    width: 722px;
+    height: 455px;
+    background-color: pink;
+}
+
+.main .newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+    /* background-color: red; */
+}
+
+.main .newsflash .news_bd ul li {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.newsflash .new {
+    border: 1px solid #e4e4e4;
+    height: 164px;
+    /* background-color: pink; */
+}
+
+.newsflash .new .news_hd {
+    height: 33px;
+    line-height: 33px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.newsflash .new .news_hd h5 {
+    font-size: 14px;
+    float: left;
+}
+
+.newsflash .new .news_hd .more {
+    float: right;
+}
+
+.newsflash .new .news_hd .more::after {
+    font-family: 'icomoon';
+    content: '\e905';
+}
+
+.newsflash .new .news_bd {
+    padding: 5px 0 0 15px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.main .lifeservice {
+    height: 210px;
+    /* background-color: pink; */
+}
+
+.main .lifeservice {
+    /* border-collapse: collapse; */
+    border: 1px solid #e4e4e4;
+    position: relative;
+    border-top: 0;
+}
+
+.main .lifeservice ul li {
+    float: left;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    width: 25%;
+    height: 70px;
+    text-align: center;
+}
+
+.main .lifeservice ul li i {
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+    /* background-color: red; */
+    margin-top: 14px;
+    background: url(../upload/icons.png) no-repeat -18px -16px;
+}
+
+.fixedtool {
+    line-height: 30px;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -708px;
+    background-color: #fff;
+    display: none;
+}
+
+.fixedtool ul .current {
+    background-color: red;
+}
+
+.fixedtool ul li {
+    padding: 0 5px;
+    height: 30px;
+}
+
+.main .lifeservice ul .jian img {
+    position: absolute;
+    right: 125px;
+    top: 0;
+}
+
+.main .bargain {
+    margin-top: 5px;
+}
+
+.recom {
+    height: 163px;
+    background-color: #ebebeb;
+    margin-top: 10px;
+}
+
+.recom i {
+    display: inline-block;
+    float: left;
+    height: 163px;
+    width: 206px;
+    background-color: #5c5251;
+}
+
+.recom i img {
+    margin-top: 31px;
+    margin-left: 68px;
+}
+
+.recom i p {
+    margin-left: 61px;
+    color: white;
+    font-size: 18px;
+}
+
+.recom ul li {
+    float: left;
+    position: relative;
+    line-height: 163px;
+    text-align: center;
+    width: 248px;
+    height: 163px;
+    /* background-color: white; */
+}
+
+.recom ul li:nth-child(-n+4)::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 1px;
+    height: 143px;
+    background-color: #dddddd;
+}
+
+.like .wenzi {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.like .wenzi h4 {
+    float: left;
+    font-size: 18px;
+}
+
+.like .wenzi p {
+    float: right;
+    font-size: 12px;
+}
+
+.like .wenzi p::after {
+    font-family: 'icomoon';
+    margin-left: 10px;
+    content: '\ea2e';
+}
+
+.like .like_chanpin {
+    height: 233px;
+    border: 1px solid red;
+    /* background-color: red; */
+}
+
+.like .like_chanpin ul li {
+    float: left;
+    position: relative;
+    line-height: 233px;
+    margin-left: 57px;
+    /* text-align: center; */
+    height: 200px;
+    /* background-color: white; */
+}
+
+.like .like_chanpin ul li:nth-child(-n+5)::after {
+    content: '';
+    /* margin-left: 5px; */
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    width: 1px;
+    height: 62px;
+    background-color: red;
+}
+
+
+/* 一楼家用电器 */
+
+.box_hd {
+    border-bottom: 2px solid red;
+    margin-top: 30px;
+}
+
+.box_hd h3 {
+    /* float: left; */
+    display: inline;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #c81623;
+}
+
+.tab_list {
+    float: right;
+}
+
+.tab_list ul li {
+    float: left;
+}
+
+.tab_list ul li a {
+    line-height: 30px;
+    margin: 0 15px 0 15px;
+}
+
+.box_bd {
+    height: 361px;
+    /* background-color: pink; */
+}
+
+.tab_list_item>div {
+    height: 361px;
+    float: left;
+}
+
+.col_220 {
+    background-color: white;
+    width: 220px;
+    text-align: center;
+}
+
+.col_220 ul {
+    padding-left: 12px;
+}
+
+.col_220 ul li {
+    float: left;
+    width: 86px;
+    height: 33px;
+    border-bottom: 1px solid #ededed;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+}
+
+.col_206 {
+    width: 206px;
+}
+
+.border-r {
+    border-right: 1px solid #ededed;
+}
