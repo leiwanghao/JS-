@@ -1,0 +1,139 @@
+/* 列表页 */
+.sk {
+    display: inline-block;
+ position: relative;
+ border-left: 1px solid #b1191a;
+ padding-left: 15px;
+ top: 0;
+ left: -685px;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    line-height: 45px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_con {
+    float: right;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 23px;
+}
+.sk_con ul li:last-of-type a::after {
+    font-family: 'icomoon';
+    content: '\e901';
+    margin-left: 5px;
+}
+.sk_bd ul li {
+    border: 1px solid transparent;
+    float: left;
+    margin-right:13px;
+    height: 460px;
+    width: 290px;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #e12228;
+}
+.sk_bd ul li h4 {
+    display: inline-block;
+    margin-top: 15px;
+    /* font-weight: 400; */
+    font-size: 22px;
+    color: #e60012;
+}
+.sk_bd ul li h3 {
+    display: inline-block;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+.sk_bd_buy {
+    margin-top: 5px;
+}
+.yishou {
+    display: inline;
+    margin-right: 13px;
+}
+.sk_bd .jindu {
+    display: inline-block;
+    overflow: hidden;
+    height: 12px;
+    width: 132px;
+    /* background-color: red; */
+    border: 1px solid red;
+    border-radius: 6px;
+}
+.tiao {
+    width: 87%;
+    height: 100%;
+    background-color: red;
+}
+.shengyu {
+    display: inline-block;
+    margin-left: 10px;
+}
+.sk_bd .qianggou {
+    display: block;
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    background-color: #b1191a;
+}
+.page {
+    margin: 40px 0;
+    text-align: center;
+}
+.page_num a {
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+}
+.page .page_num .pn_prev,
+.page .page_num .pn_next {
+    width: 120px;
+}
+.page .page_num .current,
+.page .page_num .cotted {
+    border: 1px solid transparent;
+    background-color: #fff;
+
+}
+.page .page_skip input{
+    text-align: center;
+    width: 60px;
+    height: 45px;
+    border: 1px solid #ccc;
+    transition: all .3s;
+}
+.page .page_skip input:focus {
+    width: 88px;
+    border: 1px solid skyblue;
+}
+.page button {
+    width: 58px;
+    height: 43px;
+    border: 1px solid #ccc;
+
+}
